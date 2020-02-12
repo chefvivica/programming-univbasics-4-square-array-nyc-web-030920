@@ -4,7 +4,7 @@ def square_array(array)
   arr = []
   while i < array.length do 
     puts  arr = array[i] ** 2
-    counter += 1
-  arr
+    i += 1
   end   
+  arr
 end
